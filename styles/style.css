@@ -1,5 +1,8 @@
 
-
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
  
 
 .btn-head{
@@ -18,8 +21,8 @@ background: none;
 .nave{
     display: flex;
     justify-content: space-between;
-    margin-left: 160px;
-    margin-right: 160px;
+    /* margin-left: 160px;
+    margin-right: 160px; */
     flex-direction: row;
     align-items: center;
 }
@@ -60,8 +63,8 @@ border: none;
     flex-direction: row;
     align-items: center;
     gap: 64px;
-    margin-left: 160px;
-    margin-right: 160px;
+    /* margin-left: 160px;
+    margin-right: 160px; */
     border-radius: 16px;
     background: rgb(198, 228, 214);
     padding: 80px 100px 80px 100px;
@@ -92,8 +95,8 @@ text-align: left;
 .inno-father{
     display: flex;
     justify-content: flex-start;
-    margin-left: 160px;
-    margin-right: 160px;
+    /* margin-left: 160px;
+    margin-right: 160px; */
     gap: 24px;
 }
 .innovation{
@@ -103,8 +106,83 @@ border-radius: 16px;
 background: rgb(255, 255, 255);
 padding: 32px;
 }
+
+/* -------------OPINION STYLE---------------- */
+
+/* .your-opinion{
+    margin: 0 160px;
+} */
+
+.table-title{
+    margin-bottom: 32px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+thead{  
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+.th-1{
+    width: 1017px;
+    text-align: left;
+}
+
+.th-2{
+    width: 200px;
+    text-align: right;
+}
+
+th{
+    background-color: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+td{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.td-center{
+    text-align: center;
+}
+
+#opinion{
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    padding: 12px 16px;
+    color: #0E0E0E;
+    font: 16px;
+    font-weight: 500;
+}
+
+
+
 .sec-head {
-    margin-left: 160px;
+    /* margin-left: 160px; */
     margin-bottom: 32px;
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
@@ -131,8 +209,8 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-margin-left: 160px;
-margin-right: 160px;
+/* margin-left: 160px;
+margin-right: 160px; */
 margin-bottom: 32px;
 }
 .pillar {
@@ -223,7 +301,7 @@ text-align: left;
 .yunuss{
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    margin: 32px 160px 80px 160px;
+    margin: 32px 0 80px 0;
     padding: 48px 24px 48px 24px;
     background-position-x: 32px;
     background-position-y: 36px;
@@ -286,8 +364,8 @@ align-items: center;
 align-content: center;
 }
 .fool{
-    margin-left: 160px;
-    margin-right: 160px;
+    /* margin-left: 160px;
+    margin-right: 160px; */
 }
 .jony{
     box-sizing: border-box;
@@ -342,8 +420,8 @@ text-align: left;
     align-items: center;
     flex-direction: row;
     align-content: center;
-    margin-left: 160px;
-    margin-right: 160px;
+    /* margin-left: 160px;
+    margin-right: 160px; */
     padding: 48px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -407,8 +485,8 @@ background: rgb(255, 255, 255)
     gap: 32px;
 }
 .bd-donate{
-    margin-left: 160px;
-    margin-right: 160px;
+    /* margin-left: 160px;
+    margin-right: 160px; */
     align-content: center;
 }
 .email{
@@ -447,8 +525,8 @@ text-align: center;
 .finish-footer{
     border-radius: 24px;
 background: rgb(198, 228, 214);
-margin-left: 160px;
-margin-right: 160px;
+/* margin-left: 160px;
+margin-right: 160px; */
 padding: 80px 100px;
 margin-top: 80px;
 margin-bottom: 80px;
@@ -471,3 +549,4 @@ margin-bottom: 80px;
     margin-right: 200px;
     border: 1px solid rgba(14, 14, 14, 0.1)
 }
+
