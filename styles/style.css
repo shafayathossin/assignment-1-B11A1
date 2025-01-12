@@ -463,6 +463,11 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 background: rgb(255, 255, 255)
 }
+
+.tk-200{
+    background-color: rgb(198, 228, 214);
+}
+
 .tk-is-tk{
     display: flex;
     justify-content: center;
